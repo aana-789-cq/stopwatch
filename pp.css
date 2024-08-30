@@ -1,0 +1,61 @@
+/* #btn{
+    width:100px;
+    height:100px;
+    border-radius:50px;
+    margin-left:120px;
+    margin-top:50px;
+    color:white;
+    background-color:#008080;
+}
+#time{
+    margin-left:200px;
+    display:flex;
+    
+}
+#khu{
+    margin-left:40px;
+} */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.stopwatch {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px white;
+    text-align: center;
+}
+
+.time-display {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.controls button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    height:100px;
+    width:100px;
+    border-radius: 50px;
+    border-color: black;
+    background-color: green;
+    box-shadow: 3px 3px ;
+
+}
+
+.laps {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.lap {
+    padding: 5px 0;
+    border-top: 1px solid #ddd;
+}
